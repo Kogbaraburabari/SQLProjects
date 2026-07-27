@@ -19,7 +19,7 @@ Customer → Invoice → InvoiceLine · Employee → Customer (support rep) · P
 ## Queries & Key Findings
 
 **Longest tracks reveal a data quirk** the longest "tracks" run 40-90+ minutes (e.g. one at
-88 minutes), revealing these are actually full TV episodes stored in the same table as songs —
+88 minutes), revealing these are actually full TV episodes stored in the same table as songs
 an important structural detail before treating every row as a "song."
 
 **Genre catalog depth vs. length** Rock dominates the catalog (1,297 tracks, more than double
