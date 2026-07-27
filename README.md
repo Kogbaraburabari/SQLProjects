@@ -1,6 +1,6 @@
 # SQL Projects
 
-A collection of SQL projects demonstrating query fundamentals through advanced techniques 
+A collection of SQL projects demonstrating query fundamentals through advanced techniques
 data cleaning, aggregation, business intelligence reporting, and performance optimization.
 Each project lives in its own folder with a full writeup, the SQL code, and the business
 insights drawn from the results.
@@ -9,8 +9,9 @@ insights drawn from the results.
 
 | # | Project | Tool | Focus |
 |---|---|---|---|
-| 1 | [SQL Data Analysis](./DecodeLabs-Internship-Project-3-SQL-Analysis) | SSMS | Cleaning and querying 1,200 retail transactions  revenue, cancellations, marketing performance |
+| 1 | [SQL Data Analysis](./DecodeLabs-Internship-Project-3-SQL-Analysis) | SSMS | Cleaning and querying 1,200 retail transactions revenue, cancellations, marketing performance |
 | 2 | [Sales Data SQL Querying & Optimization](./AnalystLab-Africa-SQL-Sales-Analysis) | MySQL Workbench | Advanced querying (self-joins, subqueries, window functions) plus indexing/optimization on 2,755 sales records |
+| 3 | [Chinook Music Store SQL Analysis](./AnalystLab-Africa-Chinook-SQL) | MySQL Workbench | Relational joins, subqueries, and window functions across an 11-table music store database |
 
 ## Skills demonstrated
 
@@ -21,13 +22,14 @@ insights drawn from the results.
 - Data cleaning directly in SQL (`UPDATE`, `ROUND`)
 
 **Advanced querying**
+- Multi-table joins (`INNER JOIN`, `LEFT JOIN`) across relational schemas
 - Self-joins (comparing rows against aggregated summaries of the same table)
 - Subqueries
-- Window functions (`RANK`, `PARTITION BY`)
+- Window functions (`RANK`, `ROW_NUMBER`, `PARTITION BY`)
 
 **Performance & rigor**
 - Query optimization and indexing (`EXPLAIN`, `CREATE INDEX`)
-- Data validation catching flawed comparisons (e.g. partial-year data skewing trends) before drawing conclusions
+- Data validation catching flawed comparisons (e.g. partial-year data skewing trends, or sample-data artifacts) before drawing conclusions
 
 **Communication**
 - Translating raw query results into clear business questions, findings, and recommendations
