@@ -28,7 +28,7 @@ smaller catalog.
 
 **LEFT JOIN for complete customer counts** used `LEFT JOIN` instead of `INNER JOIN` so
 customers with zero invoices still appear (with a count of 0) rather than being silently
-excluded — important for correctly identifying inactive customers.
+excluded important for correctly identifying inactive customers.
 
 **Subquery: above-average priced tracks** dominated by the same TV episodes from Query 1,
 confirming the dataset mixes media types under one pricing model a useful check before any
