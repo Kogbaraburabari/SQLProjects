@@ -1,21 +1,33 @@
 # SQL Projects
 
-SQL queries and analysis projects covering data cleaning, aggregation, and business
-intelligence reporting. Each project lives in its own folder with a full writeup.
+A collection of SQL projects demonstrating query fundamentals through advanced techniques —
+data cleaning, aggregation, business intelligence reporting, and performance optimization.
+Each project lives in its own folder with a full writeup, the SQL code, and the business
+insights drawn from the results.
 
 ## Projects
 
-| # | Project | Focus |
-|---|---|---|
-| 1 | [SQL Data Analysis](./DecodeLabs-Internship-Project-3-SQL-Analysis) | Querying 1,200 retail transactions to uncover revenue, cancellation, and marketing insights |
-| 2 | [Sales Data SQL Querying & Optimization](./AnalystLab-Africa-SQL-Sales-Analysis) | Advanced queries (self-joins, subqueries, window functions) and indexing optimization on 2,755 sales records |
+| # | Project | Tool | Focus |
+|---|---|---|---|
+| 1 | [SQL Data Analysis](./DecodeLabs-Internship-Project-3-SQL-Analysis) | SSMS | Cleaning and querying 1,200 retail transactions — revenue, cancellations, marketing performance |
+| 2 | [Sales Data SQL Querying & Optimization](./AnalystLab-Africa-SQL-Sales-Analysis) | MySQL Workbench | Advanced querying (self-joins, subqueries, window functions) plus indexing/optimization on 2,755 sales records |
 
 ## Skills demonstrated
-- Data cleaning with SQL (`UPDATE`, `ROUND`)
+
+**Fundamentals**
 - Filtering and sorting (`WHERE`, `ORDER BY`)
-- Aggregation (`GROUP BY`, `COUNT`, `SUM`, `AVG`)
+- Aggregation (`GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`)
 - Conditional logic (`CASE WHEN`)
-- Self-joins, subqueries, and window functions (`RANK`, `PARTITION BY`)
-- Query optimization and indexing (`EXPLAIN`)
-- Data validation (catching flawed comparisons before drawing conclusions)
-- Translating query results into business recommendations
+- Data cleaning directly in SQL (`UPDATE`, `ROUND`)
+
+**Advanced querying**
+- Self-joins (comparing rows against aggregated summaries of the same table)
+- Subqueries
+- Window functions (`RANK`, `PARTITION BY`)
+
+**Performance & rigor**
+- Query optimization and indexing (`EXPLAIN`, `CREATE INDEX`)
+- Data validation — catching flawed comparisons (e.g. partial-year data skewing trends) before drawing conclusions
+
+**Communication**
+- Translating raw query results into clear business questions, findings, and recommendations
